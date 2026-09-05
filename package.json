@@ -1,13 +1,14 @@
 {
   "name": "bb-plugin-conductor-theme",
   "version": "0.1.0",
-  "description": "Conductor-inspired dark and light theme for bb with espresso charcoal surfaces, warm brown message cards, bone ink, and emerald accents.",
+  "description": "Conductor-inspired dark and light themes for bb with espresso and native black surfaces, warm brown message cards, bone ink, and emerald accents.",
   "keywords": [
     "bb",
     "bb-plugin",
     "theme",
     "conductor",
     "dark-mode",
+    "oled",
     "espresso",
     "geist"
   ],
@@ -24,7 +25,7 @@
   },
   "bb": {
     "name": "Conductor Theme",
-    "description": "Conductor-inspired palette with espresso charcoal surfaces, warm brown message cards, bone ink, and emerald accents.",
+    "description": "Conductor-inspired themes with espresso and native black canvases, warm brown message cards, bone ink, and emerald accents.",
     "branding": {
       "icon": "./assets/icon.svg"
     },
@@ -35,6 +36,12 @@
         "name": "Conductor",
         "description": "Deep roasted espresso canvas, warm brown message cards, Geist typography, bone text, and emerald green actions.",
         "css": "./themes/conductor.css"
+      },
+      {
+        "id": "conductor-black",
+        "name": "Conductor Pitch Black",
+        "description": "True native black canvas (#000000) with warm brown message cards, Geist typography, bone text, and emerald green actions.",
+        "css": "./themes/conductor-black.css"
       }
     ],
     "skills": []
