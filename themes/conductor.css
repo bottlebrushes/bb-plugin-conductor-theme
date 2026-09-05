@@ -141,12 +141,12 @@
   --border: #2f2e2d;
   --border-hairline: #24201f;
 
-  /* Inks */
-  --muted-foreground: #a5a09e;
-  --readback-foreground: #cfc7c2;
-  --subtle-foreground: #706967;
+  /* Inks (lightened for strong contrast on brown/dark surfaces) */
+  --muted-foreground: #c2bcba;
+  --readback-foreground: #dbd9d7;
+  --subtle-foreground: #a5a09e;
   --accent-foreground: #ece9e7;
-  --secondary-foreground: #cfc7c2;
+  --secondary-foreground: #ece9e7;
 
   /* Accents & Brand: Emerald Green, Terracotta & Soft Cyan */
   --primary: #3eb15f;
