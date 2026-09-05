@@ -172,20 +172,19 @@
   --surface-destructive-border: #f56c694d;
   --surface-attention: #fddd6b1f;
 
-  /* Sidebar (native black) */
+  /* Sidebar (native black with white text and icons) */
   --sidebar: #000000;
-  --sidebar-foreground: #a5a09e;
+  --sidebar-foreground: #ece9e7;
   --sidebar-accent: #151110;
-  --sidebar-accent-foreground: #ece9e7;
+  --sidebar-accent-foreground: #ffffff;
   --sidebar-border: #1a1716;
   /* Controls */
   --pill-surface: linear-gradient(to bottom, #201e1c, #151110);
   --pill-surface-border: #2c2726;
   --pill-foreground: #ece9e7;
-  --pill-icon: #a5a09e;
+  --pill-icon: #ece9e7;
   --pill-surface-selected: linear-gradient(to bottom, #2a1e1d, #201e1c);
   --pill-surface-selected-border: #3c3635;
-
   --terminal-background: #000000;
   --terminal-foreground: #ece9e7;
   --terminal-cursor: #49db7e;
@@ -209,8 +208,15 @@
 
 .dark #thread-detail-secondary-panel {
   --sidebar: #000000;
+  --sidebar-foreground: #ece9e7;
 }
-/* Syntax Highlighting for lightweight chat code */
+
+.dark aside,
+.dark [data-sidebar],
+.dark [data-panel="sidebar"] {
+  --sidebar-foreground: #ece9e7;
+  color: #ece9e7;
+}
 .dark .bb-code-highlight.bb-code-highlight {
   --sh-identifier: #ece9e7;
   --sh-sign: #a5a09e;
