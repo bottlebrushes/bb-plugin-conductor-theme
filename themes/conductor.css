@@ -120,7 +120,7 @@
   --secondary: #2a1e1d;
   --accent: #2c2726;
   --muted: #2a1e1d;
-  --input: #373433;
+  --input: #4a4240;
 
   --surface-recessed: #2a1e1d;
   --surface-recessed-solid: #2a1e1d;
@@ -221,6 +221,32 @@
   --sidebar-foreground: #ece9e7;
   color: #ece9e7;
 }
+/* Switch and toggle styling */
+.dark [data-state="unchecked"],
+.dark [role="switch"][data-state="unchecked"],
+.dark button[role="switch"][data-state="unchecked"] {
+  background-color: #3d3533 !important;
+  border: 1px solid #574c49 !important;
+}
+
+.dark [role="switch"] span,
+.dark [data-state="unchecked"] span,
+.dark button[role="switch"] span {
+  background-color: #ece9e7 !important;
+}
+
+.dark [data-state="checked"],
+.dark [role="switch"][data-state="checked"],
+.dark button[role="switch"][data-state="checked"] {
+  background-color: #3eb15f !important;
+  border: 1px solid #49db7e !important;
+}
+
+.dark [data-state="checked"] span,
+.dark button[role="switch"][data-state="checked"] span {
+  background-color: #ffffff !important;
+}
+
 /* Syntax Highlighting for lightweight chat code */
 .dark .bb-code-highlight.bb-code-highlight {
   --sh-identifier: #ece9e7;
