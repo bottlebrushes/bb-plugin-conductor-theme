@@ -173,13 +173,12 @@
   --surface-destructive-border: #f56c694d;
   --surface-attention: #fddd6b1f;
 
-  /* Sidebar (deep minimal chrome) */
-  --sidebar: #0e0c0b;
+  /* Sidebar (native black) */
+  --sidebar: #000000;
   --sidebar-foreground: #a5a09e;
-  --sidebar-accent: #1b1716;
+  --sidebar-accent: #151110;
   --sidebar-accent-foreground: #ece9e7;
-  --sidebar-border: #1c1817;
-
+  --sidebar-border: #1a1716;
   /* Controls */
   --pill-surface: linear-gradient(to bottom, #201e1c, #151110);
   --pill-surface-border: #2c2726;
@@ -210,9 +209,8 @@
 }
 
 .dark #thread-detail-secondary-panel {
-  --sidebar: #0a0808;
+  --sidebar: #000000;
 }
-
 /* Syntax Highlighting for lightweight chat code */
 .dark .bb-code-highlight.bb-code-highlight {
   --sh-identifier: #ece9e7;
